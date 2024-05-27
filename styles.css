@@ -1,0 +1,108 @@
+body{
+    background-image: url(/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    margin:0;
+    font-family: "Red Hat Display";
+}
+
+#main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+#contents{
+    height:550px;
+   width:370px;
+    background-color:rgb(255, 255, 255);
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    box-shadow: 3px 11px 20px 0px grey;
+
+}
+#illustration{
+    width: 100%;
+    height: auto;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   align-self:flex-start;
+}
+#text1{
+    margin-top:10px;
+}
+#text1 h2{
+    font-size: 20px;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+    margin-bottom:10px;
+}
+#text1 p{
+    font-size: 15px;
+    color:hsl(223, 47%, 23%);
+    display:inline-block;
+    width:300px;
+}
+#money{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:small;
+    width:85%;
+    background-color:hsl(228,56%,98%);
+    align-self:center;
+    border-radius:10px;
+}
+#music{
+    width:40px;
+    height:40px;
+    position:relative;
+    right:50px;
+
+}
+#money2{
+    font-weight: 300;
+}
+#money p{
+    position:relative;
+    right:40px;
+    font-weight: 900;
+}
+#change{
+    text-decoration:underline;
+    position:relative;
+    left:45px;
+    color:blue;
+
+}
+
+
+#btn{
+
+    margin-top:35px;
+    width:85%;
+    background-color:hsl(245,75%,52%);
+    align-self:center;
+    color:white;
+    font-size:medium;
+    font-weight:750;
+    height:50px;
+    border-radius:10px;
+    border:none;
+    
+}
+
+#cancel{
+    font-weight: 500;
+    color:darkgray;
+}
+
+#btn:hover{
+
+    color:black;
+    background-color: white;
+    border:1px solid black;
+    transition:0.5s;
+}
